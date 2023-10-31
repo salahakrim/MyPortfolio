@@ -33,5 +33,5 @@ To run this portfolio app on your local machine, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/salahakrim/MyPortfolio.git
    ```
