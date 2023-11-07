@@ -6,7 +6,7 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
   const { nav, changeNav } = useContext(NavContext);
 
   const backgroundImageStyle = {
-    backgroundImage: `url("/img/my_background.png")`,
+    backgroundImage: `url("/img/background.svg")`,
   };
   return (
     <section
