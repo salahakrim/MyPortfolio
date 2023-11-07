@@ -8,9 +8,6 @@ This is my web development portfolio built using React, Bootstrap, SASS, and oth
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
