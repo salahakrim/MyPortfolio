@@ -22,7 +22,7 @@ You can view a live demo of my portfolio [here](#your-live-demo-link).
 
 ## Screenshots
 
-![Screenshot 1](/public/img/screenshots/home.png)
+![Screenshot 1](/public/img/screenshots/home1.png)
 ![Screenshot 2](/screenshots/screenshot2.png)
 ![Screenshot 3](/screenshots/screenshot3.png)
 
