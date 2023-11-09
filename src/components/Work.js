@@ -9,14 +9,12 @@ import {
 
 const workData = [
   {
-    img: "img/projects/project-1.jpg",
-    name: "Image Format",
+    img: "img/screenshots/resizedBackground.png",
+    name: "Movies App",
     format: "img",
     project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
+    duration: "3 WEEKS",
+    technologies: ["Tailwind, ", "React, ", "Firebase, "],
   },
   {
     img: "img/projects/project-2.jpg",
@@ -75,7 +73,7 @@ const workData = [
     project: "WEBSITE",
     client: "ENVATO",
     duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
+    technologies: ["HTML", " JAVASCRIPT"],
     budget: "1550 USD",
   },
   {
@@ -190,7 +188,7 @@ const Work = () => {
                       {work.project}
                     </span>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa fa-user-o" />
                     <span className="font-weight-400 project-label">
                       {" "}
@@ -200,7 +198,7 @@ const Work = () => {
                     <span className="font-weight-600 uppercase">
                       {work.client}
                     </span>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fa fa-hourglass-o" />
                     <span className="font-weight-400 project-label">
@@ -225,7 +223,7 @@ const Work = () => {
                       ))}
                     </span>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa fa-money" />{" "}
                     <span className="font-weight-400 project-label">
                       {" "}
@@ -235,9 +233,13 @@ const Work = () => {
                     <span className="font-weight-600 uppercase">
                       {work.budget}
                     </span>
-                  </li>
+                  </li> */}
                 </ul>
-                <a href="#" className="btn">
+                <a
+                  href="https://github.com/salahakrim/Movie-App"
+                  className="btn"
+                  target="blank"
+                >
                   <span>
                     <i className="fa fa-external-link" />
                     preview

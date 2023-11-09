@@ -10,7 +10,7 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className="title-head-subtitle">
-          I design and code beautiful things, and I love what I do.
+          I code & design beautiful things, and I love what I do.
         </span>
       </div>
       {/* Main Heading Ends */}
