@@ -4,24 +4,31 @@ This is my web development portfolio built using React, Bootstrap, SASS, and oth
 
 ## Table of Contents
 
-- [Demo](#demo)
+<!-- - [Demo](#demo) -->
+
 - [Features](#features)
+- [Technologies](#technologies)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
 
-## Demo
+<!-- ## Demo
 
-You can view a live demo of my portfolio [here](#your-live-demo-link).
+You can view a live demo of my portfolio [here](#your-live-demo-link). -->
 
 ## Features
 
 - List some of the key features and technologies used in your portfolio.
 
+## Technologies
+
+- Next
+- Bootstrap
+- EmailJS
+
 ## Screenshots
 
 ![Screenshot 1](/public/img/screenshots/home1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
-![Screenshot 3](/screenshots/screenshot3.png)
+![Screenshot 1](/public/img/screenshots/profile.png)
 
 ## Installation
 
