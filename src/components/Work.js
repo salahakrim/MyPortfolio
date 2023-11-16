@@ -14,7 +14,13 @@ const workData = [
     format: "img",
     project: "WEBSITE",
     duration: "3 WEEKS",
-    technologies: ["Tailwind, ", "React, ", "Firebase, "],
+    technologies: [
+      "Tailwind, ",
+      "React, ",
+      "Firebase, ",
+      "Framer Motion, ",
+      "Firebase Google Authentication",
+    ],
   },
   {
     img: "img/projects/project-2.jpg",
@@ -210,7 +216,7 @@ const Work = () => {
                       {work.duration}
                     </span>
                   </li>
-                  <li>
+                  <li className="w-100">
                     <i className="fa fa-code" />{" "}
                     <span className="font-weight-400 project-label">
                       {" "}

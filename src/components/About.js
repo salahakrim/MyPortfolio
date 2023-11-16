@@ -1,7 +1,11 @@
 import { useContext } from "react";
 import NavContext from "../context/navContext";
+
+import { Icon } from "@iconify/react";
+
 const About = () => {
   const { nav } = useContext(NavContext);
+
   return (
     <section id="about" className={`${nav === "about" ? "active" : ""}`}>
       {/* Main Heading Starts */}
@@ -143,9 +147,17 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        In the first session, I&apos;ll focus on mastering React
+                        for creating dynamic user interfaces. In the second
+                        session, I&apos;ll delve into Spring Boot to enhance my
+                        skills in developing strong server logic. The third
+                        session will center around database design and version
+                        management using Git. For effective teamwork in web
+                        development, I&apos;ll dedicate the fourth session.
+                        Lastly, in the fifth session, I&apos;ll concentrate on
+                        building a compelling web development project portfolio,
+                        showcasing my proficiency in React, Spring Boot,
+                        database management, and teamwork.
                       </p>
                     </div>
                   </div>
@@ -171,9 +183,16 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        In the first session, I&apos;ll focus on customizing
+                        Sage X3 for specific business needs. The next session
+                        will be dedicated to integrating external systems
+                        seamlessly. Then, I&apos;ll develop skills in creating
+                        custom reports and workflows within Sage X3 in the third
+                        session. The final session will involve contributing to
+                        system upgrades and optimization, staying updated on the
+                        latest features. Each step is designed to incrementally
+                        enhance proficiency in using Sage X3 for business
+                        requirements.
                       </p>
                     </div>
                   </div>
@@ -199,9 +218,17 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        In my first session, I&apos;ll focus on creating
+                        user-friendly websites, emphasizing principles of user
+                        experience design. Following that, I&apos;ll delve into
+                        front-end development using HTML, CSS, and JavaScript
+                        for visually appealing interfaces. The third session
+                        will center around constructing server-side logic and
+                        databases, exploring backend development. The final
+                        session will be dedicated to implementing responsive
+                        design techniques for optimal functionality across
+                        devices. Each session contributes to a well-rounded
+                        skill set for effective website development.
                       </p>
                     </div>
                   </div>
@@ -254,205 +281,124 @@ const About = () => {
             {/* Education Ends */}
           </div>
           {/* Skills Starts */}
+          {/* Skill Bar Starts */}
           <div className="row">
-            {/* Skill Bar Starts */}
             <div className="col-12">
               <h2 className="font-weight-600 uppercase title-section skills-title">
-                skills
+                Skills
               </h2>
-            </div>
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">html</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
+              <h3 className="font-weight-600">
+                <Icon
+                  className="mr-5"
+                  icon={"logos:javascript"}
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">javascript</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                <Icon
+                  className="mr-5"
+                  icon={"devicon:typescript"}
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">css</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={75}
-                  style={{ width: "75%" }}
+                <Icon
+                  className="mr-5"
+                  icon="logos:nextjs-icon"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Bootstrap</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                <Icon
+                  className="mr-5"
+                  icon="devicon:java"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Tailwind</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                <Icon
+                  className="mr-5"
+                  icon="devicon:php"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">wordpress</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={50}
-                  style={{ width: "50%" }}
+                <Icon
+                  className="mr-5"
+                  icon="vscode-icons:file-type-html"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(50% - 21px)" }}>
-                  50%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">React js</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
+                <Icon
+                  className="mr-5"
+                  icon="vscode-icons:file-type-css"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
-                  70%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Java</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                <Icon
+                  className="mr-5 mt-4"
+                  icon="logos:bootstrap"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Spring Boot</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
+                <Icon
+                  className="mr-5"
+                  icon="logos:tailwindcss-icon"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
-                  70%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">MongoDB</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={55}
-                  style={{ width: "55%" }}
+                <Icon
+                  className="mr-5"
+                  icon="logos:mysql"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(45% - 21px)" }}>
-                  55%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">PostgreSQL</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
+                <Icon
+                  className="mr-5"
+                  icon="logos:postgresql"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
-                  70%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Linux</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
+                <Icon
+                  className="mr-5"
+                  icon="logos:firebase"
+                  width="100"
+                  height="100"
                 />
-                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
-                  70%
-                  <b className="arrow" />
-                </span>
-              </div>
+                <Icon
+                  className="mr-5"
+                  icon="logos:laravel"
+                  width="100"
+                  height="100"
+                />
+                <Icon
+                  className="mr-5"
+                  icon="devicon:git"
+                  width="100"
+                  height="100"
+                />
+                <Icon
+                  className="mr-5 mt-4"
+                  icon="vscode-icons:file-type-docker2"
+                  width="100"
+                  height="100"
+                />
+                <Icon
+                  className="mr-5"
+                  icon="devicon:figma"
+                  width="100"
+                  height="100"
+                />
+                <Icon
+                  className="mr-5"
+                  icon="logos:java"
+                  width="100"
+                  height="100"
+                />
+                <Icon
+                  className="mr-5"
+                  icon="devicon:spring"
+                  width="100"
+                  height="100"
+                />
+              </h3>
             </div>
-            {/* Skill Bar Ends */}
+            {/* Repeat the pattern for other skills */}
           </div>
           {/* Skills Starts */}
         </div>

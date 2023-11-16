@@ -7,8 +7,8 @@ const AnimationText = () => {
         type="typewriter"
         dataText={[
           "salaheddine akrim",
-          "a web developer",
-          "a blogger",
+          "a human being",
+          "a Web Developer",
           "a freelancer",
         ]}
       />

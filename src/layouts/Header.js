@@ -18,7 +18,6 @@ const menus = [
     name: "get in touch",
     id: "contact",
   },
-  { icon: "fa fa-comments", dkMenuName: "Blog", name: "my Blog", id: "blog" },
 ];
 
 const Header = ({ light }) => {
