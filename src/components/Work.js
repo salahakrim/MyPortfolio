@@ -138,7 +138,7 @@ const Work = () => {
                         data-type="project-1"
                         onClick={() => setActive(i + 1)}
                       >
-                        <img
+                        <image
                           src={work.img}
                           alt="Project"
                           className="img-fluid"
